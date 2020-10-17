@@ -324,7 +324,7 @@
 						<textarea name="message" row="5" cols="20" placeholder="Write Message..."></textarea>
 					</div>
 					<!-- submit -->
-					<button>submit</button>
+					<button type="button" id="submit-button">submit</button>
 				</div>
 			</form>
 		</secton>
@@ -346,6 +346,9 @@
 				$('.toggle').click(function() {
 					$('.toggle').toggleClass('active');
 					$('nav ul').toggleClass('active-menu');
+				});
+				$("#submit-button").click(function(){
+					alert("Please email me at : officialtimothysnyders@gmail.com");
 				});
 			});
 		</script>
