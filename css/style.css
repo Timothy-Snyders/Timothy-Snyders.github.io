@@ -416,13 +416,17 @@ nav {
 	border-bottom: 2px solid #1E1E1E1E;
 }
 
+#contact-btn h2 {
+	border-bottom: 2px solid #1E1E1E1E;
+}
+
 #contact-btn {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 200px;
+	height: 500px; /* Adjust */
 	background-color: #f4f7ff;
 	margin: 20px 0px;
 	box-sizing: border-box;
@@ -433,7 +437,7 @@ nav {
 	color : #FFFFFF;
 	font-size: 1rem;
 	font-family: calibri;
-	width: 150px;
+	width: 200px;
 	height: 40px;
 	margin: 10px;
 	background-color: #1e1e1e;
@@ -441,6 +445,7 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	border-radius: 10px;
 }
 
 #contact-btn a:hover {
@@ -455,6 +460,20 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+/*
+.web-hover:hover {
+	background-color: #17d1ac;
+	color: #000000;
+	transition: all ease 0.5s;
+}
+
+*/
+#contact-btn .android-hover:hover {
+	background-color: #90EE90;
+	color: #000000;
+	transition: all ease 0.5s;
 }
 
 #contact-form form{
